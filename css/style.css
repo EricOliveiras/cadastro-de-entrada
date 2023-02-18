@@ -1,0 +1,156 @@
+* {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.navbar {
+  align-items: first baseline;
+  background-color: black;
+  display: flex;
+  padding: 20px;
+  position: relative;
+}
+
+#nav-title {
+  font-size: 1.6rem;
+  margin-left: 50px;
+}
+
+.nav-link {
+  margin-right: 35px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #ccc;
+}
+
+#main-title {
+  text-align: center;
+  margin: 15px 0 30px;
+}
+
+#main-title {
+  text-align: center;
+  margin: 15px 0 30px;
+}
+
+.container {
+  max-width: 100vw;
+  position: relative;
+  margin-top: 50px;
+}
+
+.create-entrys {
+  margin: 0 auto;
+}
+
+#create-form,
+#edit-form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+#main-title-show {
+  text-align: center;
+  margin: 50px 0 30px;
+}
+
+#view-entry-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+.form-group input {
+  padding: 5px;
+}
+
+.btn-enviar {
+  background-color: black;
+  color: #fff;
+  width: 400px;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: .5s;
+}
+
+.btn-enviar:hover {
+  cursor: pointer;
+  background-color: rgb(59, 59, 59);
+}
+
+#entrys-table {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+#entrys-table thead {
+  color: #FFF;
+  background-color: #000;
+}
+
+.col-id {
+  font-weight: bold;
+}
+
+.actions {
+  text-align: right;
+  width: 150px;
+}
+
+.actions i {
+  font-size: 18px;
+  margin-right: 5px;
+}
+
+.check-icon {
+  color: #1E7E34;
+}
+
+.edit-icon {
+  color: #007BFF;
+}
+
+.delete-form {
+  display: inline-block;
+}
+
+.delete-btn {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+
+.delete-icon {
+  color: #BD2130;
+}
+
+#empty-list-text {
+  text-align: center;
+}
+
+.msg {
+  color: #155724;
+  background-color: #D4EDDA;
+  border: 1px solid #C3E6CB;
+  padding: 10px;
+  text-align: center;
+  max-width: 500px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
