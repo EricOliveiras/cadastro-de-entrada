@@ -22,7 +22,7 @@ git clone https://github.com/EricOliveiras/cadastro-de-entrada
 
 4 - Configure as credenciais do banco de dados no arquivo config/db.php.
 
-5 - Quando você acessar a tabela será criada automaticamente no database que você tiver configurado anteriormente.
+5 - Quando você acessar o projeto no link no passo seguinte a tabela será criada automaticamente no database que você tiver configurado anteriormente.
 
 6 - Abra o navegador e digite o endereço da aplicação (por exemplo, http://localhost/cadastro-de-entrada). A aplicação deve estar funcionando agora!
 
